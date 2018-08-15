@@ -1,0 +1,36 @@
+obj/main.o: main.cpp alert.h uint256.h util.h netbase.h serialize.h \
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h \
+ mruset.h protocol.h addrman.h sync.h db.h main.h bignum.h script.h \
+ keystore.h crypter.h key.h scrypt.h VITEScoin/VITEScoin.h \
+ VITEScoin/../serialize.h VITEScoin/../bignum.h VITEScoin/../util.h \
+ VITEScoin/Params.h VITEScoin/Coin.h VITEScoin/Commitment.h \
+ VITEScoin/Accumulator.h VITEScoin/AccumulatorProofOfKnowledge.h \
+ VITEScoin/CoinSpend.h VITEScoin/SerialNumberSignatureOfKnowledge.h \
+ VITEScoin/SpendMetaData.h VITEScoin/../uint256.h \
+ VITEScoin/ParamGeneration.h hashblock.h sph_blake.h sph_types.h \
+ sph_groestl.h sph_jh.h sph_keccak.h sph_skein.h txdb.h txdb-leveldb.h \
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/db.h \
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/iterator.h \
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/slice.h \
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/status.h \
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/options.h \
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/write_batch.h \
+ init.h wallet.h ui_interface.h walletdb.h base58.h kernel.h
+main.cpp alert.h uint256.h util.h netbase.h serialize.h :
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h :
+ mruset.h protocol.h addrman.h sync.h db.h main.h bignum.h script.h :
+ keystore.h crypter.h key.h scrypt.h VITEScoin/VITEScoin.h :
+ VITEScoin/../serialize.h VITEScoin/../bignum.h VITEScoin/../util.h :
+ VITEScoin/Params.h VITEScoin/Coin.h VITEScoin/Commitment.h :
+ VITEScoin/Accumulator.h VITEScoin/AccumulatorProofOfKnowledge.h :
+ VITEScoin/CoinSpend.h VITEScoin/SerialNumberSignatureOfKnowledge.h :
+ VITEScoin/SpendMetaData.h VITEScoin/../uint256.h :
+ VITEScoin/ParamGeneration.h hashblock.h sph_blake.h sph_types.h :
+ sph_groestl.h sph_jh.h sph_keccak.h sph_skein.h txdb.h txdb-leveldb.h :
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/db.h :
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/iterator.h :
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/slice.h :
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/status.h :
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/options.h :
+ /home/user/LAB/VITES/vites/src/leveldb/include/leveldb/write_batch.h :
+ init.h wallet.h ui_interface.h walletdb.h base58.h kernel.h :

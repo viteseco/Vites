@@ -1,0 +1,21 @@
+obj/VITEScoin/SerialNumberSignatureOfKnowledge.o: \
+ VITEScoin/SerialNumberSignatureOfKnowledge.cpp VITEScoin/VITEScoin.h \
+ VITEScoin/../serialize.h VITEScoin/../allocators.h \
+ VITEScoin/../version.h VITEScoin/../clientversion.h \
+ VITEScoin/../bignum.h VITEScoin/../serialize.h VITEScoin/../uint256.h \
+ VITEScoin/../util.h VITEScoin/../netbase.h VITEScoin/../compat.h \
+ VITEScoin/Params.h VITEScoin/Coin.h VITEScoin/Commitment.h \
+ VITEScoin/Accumulator.h VITEScoin/AccumulatorProofOfKnowledge.h \
+ VITEScoin/CoinSpend.h VITEScoin/SerialNumberSignatureOfKnowledge.h \
+ VITEScoin/SpendMetaData.h VITEScoin/../uint256.h \
+ VITEScoin/ParamGeneration.h
+ VITEScoin/SerialNumberSignatureOfKnowledge.cpp VITEScoin/VITEScoin.h :
+ VITEScoin/../serialize.h VITEScoin/../allocators.h :
+ VITEScoin/../version.h VITEScoin/../clientversion.h :
+ VITEScoin/../bignum.h VITEScoin/../serialize.h VITEScoin/../uint256.h :
+ VITEScoin/../util.h VITEScoin/../netbase.h VITEScoin/../compat.h :
+ VITEScoin/Params.h VITEScoin/Coin.h VITEScoin/Commitment.h :
+ VITEScoin/Accumulator.h VITEScoin/AccumulatorProofOfKnowledge.h :
+ VITEScoin/CoinSpend.h VITEScoin/SerialNumberSignatureOfKnowledge.h :
+ VITEScoin/SpendMetaData.h VITEScoin/../uint256.h :
+ VITEScoin/ParamGeneration.h :

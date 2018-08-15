@@ -1,0 +1,30 @@
+obj/noui.o: noui.cpp ui_interface.h init.h wallet.h main.h bignum.h \
+ serialize.h allocators.h version.h clientversion.h uint256.h sync.h \
+ net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h \
+ keystore.h crypter.h key.h scrypt.h VITEScoin/VITEScoin.h \
+ VITEScoin/../serialize.h VITEScoin/../bignum.h VITEScoin/../util.h \
+ VITEScoin/Params.h VITEScoin/Coin.h VITEScoin/Commitment.h \
+ VITEScoin/Accumulator.h VITEScoin/AccumulatorProofOfKnowledge.h \
+ VITEScoin/CoinSpend.h VITEScoin/SerialNumberSignatureOfKnowledge.h \
+ VITEScoin/SpendMetaData.h VITEScoin/../uint256.h \
+ VITEScoin/ParamGeneration.h hashblock.h sph_blake.h sph_types.h \
+ sph_groestl.h sph_jh.h sph_keccak.h sph_skein.h walletdb.h db.h base58.h \
+ vitescoinrpc.h json/json_spirit_reader_template.h \
+ json/json_spirit_value.h json/json_spirit_error_position.h \
+ json/json_spirit_writer_template.h json/json_spirit_utils.h \
+ checkpoints.h
+noui.cpp ui_interface.h init.h wallet.h main.h bignum.h :
+ serialize.h allocators.h version.h clientversion.h uint256.h sync.h :
+ net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h :
+ keystore.h crypter.h key.h scrypt.h VITEScoin/VITEScoin.h :
+ VITEScoin/../serialize.h VITEScoin/../bignum.h VITEScoin/../util.h :
+ VITEScoin/Params.h VITEScoin/Coin.h VITEScoin/Commitment.h :
+ VITEScoin/Accumulator.h VITEScoin/AccumulatorProofOfKnowledge.h :
+ VITEScoin/CoinSpend.h VITEScoin/SerialNumberSignatureOfKnowledge.h :
+ VITEScoin/SpendMetaData.h VITEScoin/../uint256.h :
+ VITEScoin/ParamGeneration.h hashblock.h sph_blake.h sph_types.h :
+ sph_groestl.h sph_jh.h sph_keccak.h sph_skein.h walletdb.h db.h base58.h :
+ vitescoinrpc.h json/json_spirit_reader_template.h :
+ json/json_spirit_value.h json/json_spirit_error_position.h :
+ json/json_spirit_writer_template.h json/json_spirit_utils.h :
+ checkpoints.h :
