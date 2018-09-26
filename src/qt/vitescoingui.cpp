@@ -586,7 +586,7 @@ void vitescoinGUI::discordActionClicked()
 }
 void vitescoinGUI::telegramActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://t.me/Viteseconomy"));
+        QDesktopServices::openUrl(QUrl("https://t.me/VitesOfficial"));
 }
 void vitescoinGUI::youtubeActionClicked()
 {
