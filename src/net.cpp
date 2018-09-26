@@ -363,11 +363,11 @@ bool GetMyExternalIP(CNetAddr& ipRet)
         //  <?php echo $_SERVER["REMOTE_ADDR"]; ?>
         if (nHost == 1)
         {
-            addrConnect = CService("0.0.0.0",80); // checkip.dyndns.org
+            addrConnect = CService("91.198.22.70",80); // checkip.dyndns.org
 
             if (nLookup == 1)
             {
-                CService addrIP("0.0.0.0", 80, false);
+                CService addrIP("checkip.dyndns.org", 80, true);
                 if (addrIP.IsValid())
                     addrConnect = addrIP;
             }
@@ -382,17 +382,17 @@ bool GetMyExternalIP(CNetAddr& ipRet)
         }
         else if (nHost == 2)
         {
-            addrConnect = CService("0.0.0.0", 80); // www.showmyip.com
+            addrConnect = CService("198.105.244.228", 80); // check-ip.ml
 
             if (nLookup == 1)
             {
-                CService addrIP("0.0.0.0", 80, false);
+                CService addrIP("check-ip.ml", 80, true);
                 if (addrIP.IsValid())
                     addrConnect = addrIP;
             }
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
-                     "Host: www.showmyip.com\r\n"
+                     "Host: check-ip.ml\r\n"
                      "User-Agent: vitescoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
@@ -1140,9 +1140,21 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-        {"Explorer", "80.211.105.222"},
-        {"SEED-DE", "46.101.111.50"},
-        {"SEED-CAN", "167.99.179.149"},
+    {"Explorer", "80.211.105.222"},
+    {"SEED", "80.211.105.222"},
+    {"SEED", "194.182.64.190"},
+    {"SEED", "81.2.250.251"},
+    {"SEED", "195.181.215.18"},
+    {"SEED", "194.182.84.124"},
+    {"SEED", "81.2.237.172"},
+    {"SEED", "80.211.106.101"},
+    {"SEED", "80.211.128.60"},
+    {"SEED", "212.237.36.13"},
+    {"SEED", "80.211.216.212"},
+    {"SEED", "195.181.222.11"},
+    {"SEED", "80.211.216.85"},
+    {"SEED", "80.211.202.49"},
+   
 };
 
 void ThreadDNSAddressSeed(void* parg)
