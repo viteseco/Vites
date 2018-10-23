@@ -12,7 +12,7 @@ Staking: 15.000.000.000
 Development fund: 5.000.000.000
 Block time: ± 2,5 minutes
 Block size: 8 MB
-Block rewards: 20% year one
+Block rewards: 10-20% year one
 Difficulty: re-target 60 minutes
 Confirmation time: 10 blocks (± 25 minutes)
 Stake maturity: 30 blocks (± 75 minutes)
