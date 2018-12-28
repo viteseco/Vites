@@ -1,5 +1,5 @@
 ![alt text](https://s2.coinmarketcap.com/static/img/coins/32x32/3605.png "Vitescoinlogo")
- 
+
 ### VITES Coin
 Vites is an open source cryptocurrency based on the [Nist5](https://coinguides.org/nist5-algorithm-coins-asic/) algorithm. The Vites cryptocurrency serves as the core utility coin in the Vites platform and related use cases. The emphasis of Vites is solely on creating solid use cases and a functional digital economy around the cryptocurrency.
  
@@ -10,7 +10,7 @@ The Vites project has a strong focus on providing actual utility with low barrie
 Users can enter the world of cryptocurrency by doing things already common in today’s world, rather than having to purchase cryptocurrency outright or mine, a process seen by many outsiders as difficult.
  
 Through the Vites platform, the user can then be exposed to, and incentivised to learn more about, blockchain technology and cryptocurrency as a whole.
-***
+
  
 ## Important Links
  
@@ -33,7 +33,7 @@ Through the Vites platform, the user can then be exposed to, and incentivised to
 [Medium](https://medium.com/vitesecosystem)
 
 [Bitcointalk](https://bitcointalk.org/index.php?topic=4740060.0)
-***
+
  
 ## Vites exchange listings
  
@@ -43,11 +43,10 @@ Through the Vites platform, the user can then be exposed to, and incentivised to
 
 [Nova Exchange](https://novaexchange.com/market/BTC_VITES/)
 
-***
  
 ## Market statistics
  
-*[Coinmarketcap](https://coinmarketcap.com/currencies/vites/)
+[Coinmarketcap](https://coinmarketcap.com/currencies/vites/)
 
 [Coingecko](https://www.coingecko.com/en/coins/vites)
 
