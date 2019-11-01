@@ -84,3 +84,6 @@ PoS Period: Infinite
 Time until all coins are mined: At current PoS rate 1,5 – 2 years. But within- or after the first year we are re-adjusting the PoS rate to a significant lower ROI. And we’re going to explore the benefits of adding masternodes. All the changes within- or after the first year will be for the health of the project.
  
 Staking rewards are 10% annual. If you stake your coins more frequently,  you can even gain up to 20% annually with the gained compounding interest.
+
+Community update 10/30/2019
+============================

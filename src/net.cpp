@@ -382,17 +382,17 @@ bool GetMyExternalIP(CNetAddr& ipRet)
         }
         else if (nHost == 2)
         {
-            addrConnect = CService("198.105.244.228", 80); // check-ip.ml
+            addrConnect = CService("74.208.43.192", 80); // www.showmyip.com
 
             if (nLookup == 1)
             {
-                CService addrIP("check-ip.ml", 80, true);
+                CService addrIP("www.showmyip.com", 80, true);
                 if (addrIP.IsValid())
                     addrConnect = addrIP;
             }
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
-                     "Host: check-ip.ml\r\n"
+                     "Host: www.showmyip.com\r\n"
                      "User-Agent: vitescoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
@@ -1140,20 +1140,10 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"Explorer", "80.211.105.222"},
-    {"SEED", "80.211.105.222"},
-    {"SEED", "194.182.64.190"},
-    {"SEED", "81.2.250.251"},
-    {"SEED", "195.181.215.18"},
-    {"SEED", "194.182.84.124"},
-    {"SEED", "81.2.237.172"},
-    {"SEED", "80.211.106.101"},
-    {"SEED", "80.211.128.60"},
-    {"SEED", "212.237.36.13"},
-    {"SEED", "80.211.216.212"},
-    {"SEED", "195.181.222.11"},
-    {"SEED", "80.211.216.85"},
-    {"SEED", "80.211.202.49"},
+    {"Explorer", "207.148.3.77"},
+    {"SEED", "207.148.3.77"},
+    {"SEED", "8.12.22.71"},
+
    
 };
 
