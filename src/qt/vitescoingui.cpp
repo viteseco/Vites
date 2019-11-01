@@ -578,15 +578,15 @@ void vitescoinGUI::facebookActionClicked()
 }
 void vitescoinGUI::twitterActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://twitter.com/Viteseco"));
+        QDesktopServices::openUrl(QUrl("https://twitter.com/vitescoin"));
 }
 void vitescoinGUI::discordActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://discord.gg/yk4ueMk"));
+        QDesktopServices::openUrl(QUrl("https://discord.gg/WPuMQPA"));
 }
 void vitescoinGUI::telegramActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://t.me/VitesOfficial"));
+        QDesktopServices::openUrl(QUrl("https://t.me/vitescoin"));
 }
 void vitescoinGUI::youtubeActionClicked()
 {
